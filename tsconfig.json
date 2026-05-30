@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"],
+      "@ccswitch/*": ["./src/ccswitch/*"],
+      "@tauri-apps/api/core": ["./src/ccswitch/shims/tauri-core"],
+      "@tauri-apps/api/event": ["./src/ccswitch/shims/tauri-event"],
+      "@tauri-apps/api/window": ["./src/ccswitch/shims/tauri-window"],
+      "@tauri-apps/api/app": ["./src/ccswitch/shims/tauri-app"],
+      "@tauri-apps/api/path": ["./src/ccswitch/shims/tauri-path"],
+      "@tauri-apps/plugin-dialog": ["./src/ccswitch/shims/plugin-dialog"],
+      "@tauri-apps/plugin-process": ["./src/ccswitch/shims/plugin-process"],
+      "@tauri-apps/plugin-updater": ["./src/ccswitch/shims/plugin-updater"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts",
+    "**/*.mts"
+  ],
+  "exclude": ["node_modules"]
+}

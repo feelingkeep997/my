@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx shadcn@latest *)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(npx playwright *)",
+      "WebFetch(domain:www.huawei.com)",
+      "Bash(curl -s http://localhost:3000/dashboard)",
+      "Bash(npx tsc *)",
+      "Bash(curl *)",
+      "Bash(rm -rf \"C:/Users/陈闻辉/Desktop/my/src/app/dashboard\")",
+      "Bash(rm \"C:/Users/陈闻辉/Desktop/my/src/components/dashboard-page.tsx\")",
+      "WebFetch(domain:github.com)",
+      "Read(//tmp/**)",
+      "Read(//tmp/cc-switch-temp/**)",
+      "Bash(cp -r /tmp/cc-switch-temp/src/components \"C:/Users/陈闻辉/Desktop/my/src/ccswitch/\")",
+      "Bash(cp -r /tmp/cc-switch-temp/src/hooks \"C:/Users/陈闻辉/Desktop/my/src/ccswitch/\")",
+      "Bash(cp -r /tmp/cc-switch-temp/src/lib \"C:/Users/陈闻辉/Desktop/my/src/ccswitch/\")",
+      "Bash(cp -r /tmp/cc-switch-temp/src/config \"C:/Users/陈闻辉/Desktop/my/src/ccswitch/\")",
+      "Bash(cp -r /tmp/cc-switch-temp/src/types \"C:/Users/陈闻辉/Desktop/my/src/ccswitch/\")",
+      "Bash(npx next *)",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d.get\\('exports',{}\\), indent=2\\)\\)\")",
+      "Bash(node -e \"const d=require\\('fs'\\).readFileSync\\('/dev/stdin','utf8'\\); const j=JSON.parse\\(d\\); console.log\\(JSON.stringify\\(j.exports,null,2\\)\\)\")",
+      "Bash(pkill -f \"next dev\")",
+      "WebSearch",
+      "Bash(gh search *)",
+      "Bash(mkdir -p /c/Users/陈闻辉/.claude/plugins/local/frontend-design-plugin/.claude-plugin)",
+      "Bash(mkdir -p /c/Users/陈闻辉/.claude/plugins/local/frontend-design-plugin/skills/frontend-design)",
+      "Bash(python3 -c ' *)",
+      "Bash(node -e ' *)",
+      "Bash(node fix-quotes.js)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "ruflo"
+  ]
+}
